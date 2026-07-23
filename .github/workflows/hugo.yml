@@ -38,7 +38,7 @@ jobs:
       - name: Build with Hugo
         run: |
           mkdir -p themes
-          ln -sf .. themes/hugo-texify2
+          ln -sf . themes/hugo-texify2
           hugo --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
