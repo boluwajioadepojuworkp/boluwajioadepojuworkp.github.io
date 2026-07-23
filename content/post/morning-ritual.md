@@ -1,6 +1,6 @@
 ---
 title: "The Morning Practice: How I Write Every Day"
-date: 2026-07-18
+date: 2026-07-12
 tags: ["writing", "note-writing", "productivity"]
 ---
 
