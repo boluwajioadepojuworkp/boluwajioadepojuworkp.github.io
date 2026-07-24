@@ -1,25 +1,32 @@
-#main > .post-group > ul {
-    border-left: gray solid 1px;
-    list-style-type: none;
-    margin-left: .5rem;
-    padding-left: 1rem;
+#main.archive .post-group {
+    margin-bottom: 2rem;
 }
 
-#main > .post-group > ul > li {
-    align-items: center;
+#main.archive .post-group h2 {
+    font-size: 1.1rem;
+    color: var(--darkgray);
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+#main.archive li {
+    list-style: none;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    line-height: 1.6;
+    align-items: baseline;
+    padding: 0.3rem 0;
 }
 
-#main > .post-group > ul > li > time {
-    text-align: right;
+#main.archive li a {
+    color: var(--secondary);
+    border-bottom: 1.5px solid transparent;
+    transition: border-color 0.15s;
 }
 
-@media screen and (min-width: 768px) {
-    #main > .post-group > ul {
-        margin-left: 1rem;
-        padding-left: 2rem;
-    }
+#main.archive li a:hover {
+    border-bottom-color: var(--tertiary);
+}
+
+#main.archive li time {
+    font-size: 0.85rem;
 }

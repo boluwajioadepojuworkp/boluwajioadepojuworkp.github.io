@@ -1,41 +1,30 @@
-#main > h1 {
-    text-align: center;
-}
-
 #main > .content {
-    padding-top: 1rem;
-}
-
-#main > .warning {
-    background-color: brown;
-    color: white;
-    font-size: 1.1rem;
-    margin: 2rem 0;
-    padding: 1rem 0;
-    text-align: center;
+    padding-top: 0.5rem;
 }
 
 #main .toc {
-    background-color: #faf8f8;
-    border: 1px solid #e5e5e5;
+    background: var(--lightgray);
+    border: 1px solid var(--gray);
     border-radius: 4px;
     display: inline-block;
-    margin: 1rem;
-    padding: .5rem 1rem;
+    margin: 1rem 0;
+    padding: 0.75rem 1.25rem;
 }
 
 #main .toc a:hover {
     text-decoration: underline;
 }
 
-#main .toc li > ul {
-    margin-left: 1.5rem;
-}
-
 #main .toc ul {
-    list-style: none;
+    padding-left: 1.25rem;
 }
 
-#main :target {
-    background-color: azure;
+#main > .warning {
+    background-color: var(--tertiary);
+    color: white;
+    font-size: 1.1rem;
+    margin: 2rem 0;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 4px;
 }
