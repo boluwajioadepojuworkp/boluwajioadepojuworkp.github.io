@@ -15,8 +15,9 @@
 }
 
 .content a {
-    color: #AA0000;
-    text-decoration: underline;
+    color: var(--secondary);
+    text-decoration: none;
+    border-bottom: 1px solid var(--tertiary);
 }
 
 .content a.footnote-ref::before {

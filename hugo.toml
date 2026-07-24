@@ -58,7 +58,7 @@ since = "2025"
 toc = true
 showWordCount = true
 showReadingTime = true
-rootFontSize = "120%"
+rootFontSize = "100%"
 math = true
 numberedSubtitles = false
 
